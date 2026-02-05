@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Viewer - Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏦 Bank Account Viewer</h1>
+            <p class="subtitle">Application de démonstration BOB Shell</p>
+        </header>
+
+        <main>
+            <section class="accounts-section">
+                <h2>Comptes Bancaires</h2>
+                <div id="accounts-container" class="accounts-grid">
+                    <div class="loading">Chargement des comptes...</div>
+                </div>
+            </section>
+
+            <section class="details-section" id="details-section" style="display: none;">
+                <h2>Détails du Compte</h2>
+                <div id="account-details"></div>
+                
+                <h3>Transactions Récentes</h3>
+                <div id="transactions-container"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>⚠️ Application de démonstration - Contient des bugs intentionnels</p>
+            <p>Issues connues: #1 (Sécurité) | #2 (Affichage)</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
